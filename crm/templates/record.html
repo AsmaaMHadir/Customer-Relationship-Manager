@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Client with ID # {{crecord.id}}</h1>
+<tr>
+    <td></td>
+    <td></td>
+
+
+</tr> 
+
+<div class="card">
+    <div class="card-header">
+      Customer card
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{crecord.fname}} {{crecord.lname}}</h5>
+      <p class="card-text">
+        {{crecord.email}}</br>
+        {{crecord.phone}}</br>
+        {{crecord.address}}</br>
+        {{crecord.city}}</br>
+        {{crecord.state}}</br>
+        {{crecord.zipcode}}</br>
+      </p>
+      <a href="{% url 'home' %}" class="btn btn-primary">Go back</a>
+      <a href="{% url 'delete' crecord.id %}" class="btn btn-primary">Delete</a>
+      <a href="{% url 'update' crecord.id %}" class="btn btn-primary">Update</a>
+    </div>
+  </div>
+{% endblock %}
