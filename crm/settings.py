@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'crm'
+    'crm',
 ]
 
 MIDDLEWARE = [
@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'crm.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'myclients',
-        'USER': 'myprojectuser', 
-        'PASSWORD': 'AF*pp%08',
-        'HOST': '127.0.0.1', 
-        'PORT': '',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres', 
+        'PASSWORD': '6jaPz7wIMA3d2e9FwNXp',
+        'HOST': 'containers-us-west-76.railway.app', 
+        'PORT': '7265',
     }
 }
 
