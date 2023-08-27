@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
-
+from decouple import config
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'crm.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres', 
-        'PASSWORD': '6jaPz7wIMA3d2e9FwNXp',
+        'NAME': config('DATABASE_NAME'),
+        'USER': config('DATABASE_USER'), 
+        'PASSWORD': config('DATABASE_PASSWORD'),
         'HOST': 'containers-us-west-76.railway.app', 
         'PORT': '7265',
     }
