@@ -29,7 +29,7 @@ The CRM Application is a comprehensive backend customer relationship management 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/crm-application.git <----
+   git clone https://github.com/AsmaaMHadir/Customer-Relationship-Manager.git
    cd crm-application
    ```
    
