@@ -1,5 +1,6 @@
 # CRM Application
 
+The CRM Application is a comprehensive backend customer relationship management solution built using Django. It allows users to manage customer records, including viewing, adding, updating, and deleting customer information. The application utilizes PostgreSQL to store customer data and integrates with Railway Apps for efficient database management and querying.
 
 - Client card view
 <img width="465" alt="clientView" src="https://github.com/AsmaaMHadir/Django-CRM/assets/46932156/7ed1fde3-9b53-4242-abd8-1b99bec8f35d">
@@ -8,7 +9,7 @@
   <img width="925" alt="mainView" src="https://github.com/AsmaaMHadir/Django-CRM/assets/46932156/8c9ed243-1953-47b7-8516-919e7ff8d057">
 
 
-The CRM Application is a comprehensive backend customer relationship management solution built using Django. It allows users to manage customer records, including viewing, adding, updating, and deleting customer information. The application utilizes PostgreSQL to store customer data and integrates with Railway Apps for efficient database management and querying.
+
 
 ## Features
 
